@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Dispatch Services</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h1>Prime Dispatch</h1>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#quote">Get Quote</a></li>
+          <li><a href="#driver">Drivers</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <img
+        src="https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+        alt="Truck"
+      />
+      <div class="hero-text">
+        <h2>Reliable Truck Dispatching Services</h2>
+        <p>We help carriers find high-paying loads and optimize routes.</p>
+        <button onclick="scrollToSection('quote')">Get a Quote</button>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>About Us</h2>
+      <img src="https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55" />
+      <p>
+        Prime Dispatch provides 24/7 dispatching services, helping truck drivers
+        maximize profits while minimizing stress.
+      </p>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+      <h2>Our Services</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Load Booking</h3>
+          <p>We find the best-paying loads for you.</p>
+        </div>
+
+        <div class="card">
+          <h3>Route Planning</h3>
+          <p>Efficient routes to save time and fuel.</p>
+        </div>
+
+        <div class="card">
+          <h3>Driver Support</h3>
+          <p>24/7 assistance for all drivers.</p>
+        </div>
+
+        <div class="card">
+          <h3>Documentation</h3>
+          <p>We handle paperwork and compliance.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="section">
+      <h2>Pricing Plans</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Basic</h3>
+          <p>5% per load</p>
+        </div>
+
+        <div class="card">
+          <h3>Standard</h3>
+          <p>7% per load</p>
+        </div>
+
+        <div class="card">
+          <h3>Premium</h3>
+          <p>10% full-service dispatch</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUOTE FORM -->
+    <section id="quote" class="section">
+      <h2>Get a Quote</h2>
+
+      <form id="quoteForm">
+        <input type="text" placeholder="Company Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="text" placeholder="Truck Type" />
+        <textarea placeholder="Details"></textarea>
+        <button type="submit">Request Quote</button>
+      </form>
+    </section>
+
+    <!-- DRIVER REGISTRATION -->
+    <section id="driver" class="section">
+      <h2>Driver Registration</h2>
+
+      <form id="driverForm">
+        <input type="text" placeholder="Full Name" required />
+        <input type="text" placeholder="License Number" required />
+        <input type="text" placeholder="Truck Type" required />
+        <input type="email" placeholder="Email" required />
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2026 Prime Dispatch Services</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
